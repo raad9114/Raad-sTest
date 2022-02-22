@@ -30,8 +30,7 @@ class _HomepageState extends State<Homepage> {
   bool pressAttention1 = false;
   late String _currentAddress =" ";
   late String _currentAddressout =" ";
-
-
+  late String Raad;
   Future<void> getLocationin() async {
     Position position = await Geolocator.getCurrentPosition();
     print(position.latitude);
